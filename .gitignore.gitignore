@@ -1,0 +1,42 @@
+# Fichiers sensibles
+.env
+.env.local
+
+# Dépendances
+vendor/
+node_modules/
+
+# Logs et fichiers temporaires
+*.log
+*.tmp
+*.cache
+*.bak
+*.swp
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Caches de XAMPP / sessions
+xampp/tmp/
+xampp/logs/
+tmp/
+logs/
+
+# Fichiers de base de données et sauvegardes
+*.sql
+*.sql.gz
+*.sqlite
+*.db
+
+# Fichiers de sauvegarde d'éditeurs
+*~
+*.orig
+
+# IDEs
+.vscode/
+.idea/
+
+# Sessions PHP
+sess_*
